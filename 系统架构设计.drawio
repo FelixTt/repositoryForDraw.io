@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T15:09:57.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y0vz7RRnaZQZAxv4j9sH" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-09T15:11:18.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5g4xJ5nMBb0gzw3Hk-tR" version="20.0.4" type="github">
   <diagram id="ojnK0p3J3MTXAop_F5v3" name="Page-1">
     <mxGraphModel dx="1240" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="l_XuRvR61M2AbJogMl1h-1" value="魔镜监控系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="190" width="316" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l_XuRvR61M2AbJogMl1h-2" value="登录注册" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="l_XuRvR61M2AbJogMl1h-2" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="109" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0k4BuSOVnENNucScM7A2-1" value="前端监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
