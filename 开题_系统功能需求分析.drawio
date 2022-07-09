@@ -1,1 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T14:09:37.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="vNrVACdBoWLqL9gW_giY" type="github"><diagram id="accJ7N_L74ea_RSTQcrK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-09T15:11:22.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y6NA-7RsGcN9vbGrnAd-" version="20.0.4" type="github">
+  <diagram id="accJ7N_L74ea_RSTQcrK" name="Page-1">
+    <mxGraphModel dx="1938" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-1" target="HElb8EKQKASEjrZ3UNd6-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="140" as="sourcePoint" />
+            <mxPoint x="290" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-7" value="申请权限" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-7" target="HElb8EKQKASEjrZ3UNd6-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="110" as="sourcePoint" />
+            <mxPoint x="480" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-9" value="用户登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-10" value="用户退出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-13" target="HElb8EKQKASEjrZ3UNd6-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="371.1462715442881" y="94.31514339308478" as="sourcePoint" />
+            <mxPoint x="470.48143973185097" y="63.42241151156986" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-13" value="include" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-14" value="" style="endArrow=none;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-7" target="HElb8EKQKASEjrZ3UNd6-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="371.09949900227457" y="125.72292276993062" as="sourcePoint" />
+            <mxPoint x="478.80899067149085" y="158.00249740874733" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-15" value="include" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-16" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-27" value="&lt;div&gt;权限管理&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.5" y="430" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-45" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-46" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-51">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-47" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-48" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-58">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-49" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-54">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637.5000000000002" y="380" as="sourcePoint" />
+            <mxPoint x="637.5000000000002" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-51" value="异常处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="480" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-54" value="故障定位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="550" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-56" value="工单查看" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="610" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-58" value="链路数据查看" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.5" y="675" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-62" value="开发人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="910" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-65" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-62" target="HElb8EKQKASEjrZ3UNd6-69" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="1180" as="sourcePoint" />
+            <mxPoint x="210" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-66" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-62" target="HElb8EKQKASEjrZ3UNd6-71" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="1180" as="sourcePoint" />
+            <mxPoint x="210" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-68" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-62" target="HElb8EKQKASEjrZ3UNd6-70" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="1180" as="sourcePoint" />
+            <mxPoint x="210" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-69" value="告警配置" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="850" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-70" value="接受告警工单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="910" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-71" value="监控系统接入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="970" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-73" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="1350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-74" value="&lt;div&gt;故障定位&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.5" y="1230" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-75" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-73" target="HElb8EKQKASEjrZ3UNd6-74" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="112.5" y="1620" as="sourcePoint" />
+            <mxPoint x="192.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-76" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-73" target="HElb8EKQKASEjrZ3UNd6-80" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="112.5" y="1620" as="sourcePoint" />
+            <mxPoint x="192.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-77" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-73" target="HElb8EKQKASEjrZ3UNd6-82" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="112.5" y="1620" as="sourcePoint" />
+            <mxPoint x="192.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-78" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-73" target="HElb8EKQKASEjrZ3UNd6-83" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="112.5" y="1620" as="sourcePoint" />
+            <mxPoint x="192.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-79" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" source="HElb8EKQKASEjrZ3UNd6-73" target="HElb8EKQKASEjrZ3UNd6-81" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="112.5" y="1620" as="sourcePoint" />
+            <mxPoint x="192.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-80" value="日志查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1280" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-81" value="接受告警工单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1350" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-82" value="页面/服务健康质量查看（系统、前端页面监控）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="1410" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-83" value="礼包信息查看" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281.5" y="1475" width="115" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
