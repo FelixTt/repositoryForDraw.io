@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T09:45:20.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="A68sjNLsZl7WaTh54hNh" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-10T11:15:26.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NkvwRr4HX4EDe18eDqpC" version="20.0.4" type="github">
   <diagram id="ojnK0p3J3MTXAop_F5v3" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,6 +201,18 @@
             <mxPoint x="13" y="307" as="sourcePoint" />
             <mxPoint x="63" y="257" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-16" value="监控管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="103.5" y="800" width="329" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-17" value="工单系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="800" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-18" value="告警推断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="800" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-19" value="告警总线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="842" width="240.5" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
