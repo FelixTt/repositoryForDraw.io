@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-10T05:39:09.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cSCriB5T-YfimsGMHD3w" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-10T08:55:55.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CHHM7rT9iBpn0oIIPH3K" version="20.0.4" type="github">
   <diagram id="accJ7N_L74ea_RSTQcrK" name="Page-1">
-    <mxGraphModel dx="1422" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
         <mxCell id="HElb8EKQKASEjrZ3UNd6-16" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="187.5" y="550" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HElb8EKQKASEjrZ3UNd6-27" value="&lt;div&gt;权限管理&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HElb8EKQKASEjrZ3UNd6-27" value="&lt;div&gt;性能指标&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="306.5" y="430" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HElb8EKQKASEjrZ3UNd6-45" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="HElb8EKQKASEjrZ3UNd6-27" edge="1">
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HElb8EKQKASEjrZ3UNd6-51" value="异常处理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="375" y="480" width="115" height="50" as="geometry" />
+          <mxGeometry x="210" y="710" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HElb8EKQKASEjrZ3UNd6-54" value="故障定位" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="550" width="115" height="50" as="geometry" />
@@ -181,6 +181,24 @@
         </mxCell>
         <mxCell id="HElb8EKQKASEjrZ3UNd6-83" value="礼包信息查看" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="281.5" y="1475" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iaF9YsFqPgOwi9NGmU-E-2" value="&lt;div&gt;权限管理&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iaF9YsFqPgOwi9NGmU-E-3" value="日志查看" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="490" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iaF9YsFqPgOwi9NGmU-E-4" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="iaF9YsFqPgOwi9NGmU-E-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaF9YsFqPgOwi9NGmU-E-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="HElb8EKQKASEjrZ3UNd6-16" target="iaF9YsFqPgOwi9NGmU-E-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="137.5" y="820" as="sourcePoint" />
+            <mxPoint x="217.5" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
