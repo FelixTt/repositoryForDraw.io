@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T02:01:04.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IksREjzJTXsU6MNf86QD" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T02:19:17.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LlqG9mcNdvIcsuBoE9Xz" version="20.0.4" type="github">
   <diagram id="ojnK0p3J3MTXAop_F5v3" name="Page-1">
-    <mxGraphModel dx="1422" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,10 +344,10 @@
           <mxGeometry x="531" y="2133" width="139" height="34" as="geometry" />
         </mxCell>
         <mxCell id="fYWc9rKdTb6CDzyfWaW0-77" value="业务集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="101" y="2175" width="575" height="32" as="geometry" />
+          <mxGeometry x="101" y="2175" width="570" height="32" as="geometry" />
         </mxCell>
         <mxCell id="fYWc9rKdTb6CDzyfWaW0-78" value="Cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="101" y="2212" width="575" height="32" as="geometry" />
+          <mxGeometry x="101" y="2212" width="570" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
