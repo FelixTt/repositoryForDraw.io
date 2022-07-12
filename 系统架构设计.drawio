@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T01:34:38.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hd_Xl56ic75uW5mw2RwN" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T02:00:53.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8Pq4qEHzFqbnbJr_DEVn" version="20.0.4" type="github">
   <diagram id="ojnK0p3J3MTXAop_F5v3" name="Page-1">
     <mxGraphModel dx="1422" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,10 +323,31 @@
           <mxGeometry x="202" y="2010" width="465" height="36" as="geometry" />
         </mxCell>
         <mxCell id="fYWc9rKdTb6CDzyfWaW0-67" value="数据实时计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="202" y="2054" width="232" height="36" as="geometry" />
+          <mxGeometry x="202" y="2052" width="232" height="36" as="geometry" />
         </mxCell>
         <mxCell id="fYWc9rKdTb6CDzyfWaW0-68" value="数据聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="2054" width="232" height="36" as="geometry" />
+          <mxGeometry x="438" y="2052" width="232" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-71" value="数据采集清洗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="2093" width="465" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-72" value="网关信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="2136" width="93" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-73" value="事务信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="2134" width="93" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-75" value="存储信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="2133" width="139" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-76" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="531" y="2133" width="139" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-77" value="业务集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="2175" width="575" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWc9rKdTb6CDzyfWaW0-78" value="Cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="2212" width="575" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
