@@ -1,1 +1,203 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T02:43:28.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="20.1.4" etag="FusoqkujHS8w1LOEJfA2" type="github"><diagram id="XtT4_bYtzl-HBn0UfJUi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-23T02:43:54.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="t9FELOSvq2g8vvd8Ju8k" version="20.1.4" type="github">
+  <diagram id="XtT4_bYtzl-HBn0UfJUi" name="第 1 页">
+    <mxGraphModel dx="3730" dy="-11" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EUTDM4tJcP_UzhHsts69-1" value="加载flog文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="1191" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-2" value="初始化页面监听（包括资源加载异常，js错误）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="1306.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-3" value="配置信息" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-1" target="EUTDM4tJcP_UzhHsts69-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-582" y="1426" as="sourcePoint" />
+            <mxPoint x="-532" y="1376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-4" value="flog core 是否加载完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-411" y="1402" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-2" target="EUTDM4tJcP_UzhHsts69-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1426.5" as="sourcePoint" />
+            <mxPoint x="41" y="1376.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-6" value="检查配置并根据规则初始化 flog core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="1412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-4" target="EUTDM4tJcP_UzhHsts69-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="1406" as="sourcePoint" />
+            <mxPoint x="35" y="1356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-8" value="日志写入flog中间数组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-9" value="否" style="endArrow=classic;rounded=0;html=1;labelBorderColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-411" y="1442" as="sourcePoint" />
+            <mxPoint x="-510" y="1442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-10" value="初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="1529" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-11" value="是" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-4" target="EUTDM4tJcP_UzhHsts69-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1345" as="sourcePoint" />
+            <mxPoint x="41" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-8" target="EUTDM4tJcP_UzhHsts69-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-574" y="1468" as="sourcePoint" />
+            <mxPoint x="41" y="1595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-574" y="1553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-13" value="条数限制检查，日期显示检查，内部时间注册，操作检查，事件抛出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="1529" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-14" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-10" target="EUTDM4tJcP_UzhHsts69-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1623" as="sourcePoint" />
+            <mxPoint x="41" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-15" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-17" target="EUTDM4tJcP_UzhHsts69-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-17" target="EUTDM4tJcP_UzhHsts69-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-17" value="flog core 是否初始化完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-411" y="1614" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-18" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-10" target="EUTDM4tJcP_UzhHsts69-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1623" as="sourcePoint" />
+            <mxPoint x="41" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-19" value="结构cgi报错" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-254" y="1624" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-20" value="是" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-17" target="EUTDM4tJcP_UzhHsts69-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1623" as="sourcePoint" />
+            <mxPoint x="41" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-21" value="日志塞入flog core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-22" value="flog core 是否处于暂停状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-411" y="1827" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-23" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-21" target="EUTDM4tJcP_UzhHsts69-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1623" as="sourcePoint" />
+            <mxPoint x="41" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-24" value="日志塞入flog队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="1943" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-25" value="日志塞入indexeddb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="2039.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-26" value="否" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-22" target="EUTDM4tJcP_UzhHsts69-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1923" as="sourcePoint" />
+            <mxPoint x="41" y="1873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-27" value="队列消费" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-24" target="EUTDM4tJcP_UzhHsts69-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="1923" as="sourcePoint" />
+            <mxPoint x="41" y="1873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-28" value="是否超出条数限制" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-411" y="2134" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-29" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-25" target="EUTDM4tJcP_UzhHsts69-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="2023" as="sourcePoint" />
+            <mxPoint x="41" y="1973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-30" value="模块配置的删除间隔对每次新增操作进行检查删除" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="2261" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-31" value="是" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-28" target="EUTDM4tJcP_UzhHsts69-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-412" y="2204" as="sourcePoint" />
+            <mxPoint x="-62" y="2092" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-32" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;触发startTheWorld事件，取出现有量的75%，放入中间数组&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-33" target="EUTDM4tJcP_UzhHsts69-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-563" y="1766" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-33" value="日志写入 flog 中间数组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-623" y="1841" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-34" value="indexeddb出发 QuotaExceededError" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1053" y="1754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-35" value="清容" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1053" y="1589" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-36" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-35" target="EUTDM4tJcP_UzhHsts69-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-215" y="1992" as="sourcePoint" />
+            <mxPoint x="-165" y="1942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-37" value="删库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1053" y="1986" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-38" value="触发startTheWorld事件，检查db是否可用" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-37" target="EUTDM4tJcP_UzhHsts69-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-603" y="2064" as="sourcePoint" />
+            <mxPoint x="-79" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-39" value="" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-34" target="EUTDM4tJcP_UzhHsts69-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-215" y="1992" as="sourcePoint" />
+            <mxPoint x="-165" y="1942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-40" value="是" style="endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-22" target="EUTDM4tJcP_UzhHsts69-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="1990" as="sourcePoint" />
+            <mxPoint x="-80" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-41" value="初始化flog core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-632" y="1624" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EUTDM4tJcP_UzhHsts69-42" value="flog core触发startTheWorld事件" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;labelBorderColor=none;" edge="1" parent="1" source="EUTDM4tJcP_UzhHsts69-33" target="EUTDM4tJcP_UzhHsts69-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-159" y="1961" as="sourcePoint" />
+            <mxPoint x="-489" y="2099" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-563" y="2018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
