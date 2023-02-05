@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T06:42:25.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.13" etag="_5xM50kl6vL4qNvRbVnv" type="github"><diagram name="第 1 页" id="YsUZCrus2lpNev38FYvy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-05T06:43:19.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GVgaze5VyN6VJKfuccNk" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="YsUZCrus2lpNev38FYvy">
+    <mxGraphModel dx="1877" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="91" y="390" width="725" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-2" value="注册登录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="407" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-3" value="Vue /&amp;nbsp; Vue Router / Vuex / Element UI / GoJs" style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="459" width="700" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-4" value="axios / ajax / HTTP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="532" width="725" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-5" value="Web端视图层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="403" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-6" value="接口层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="514" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="594" width="725" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-8" value="业务逻辑层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-9" value="数据上报" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100.5" y="689" width="345" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-10" value="数据采集" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="458.5" y="690" width="345" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-11" value="数据聚合、计算" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="649" width="703" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-12" value="告警工单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="398.5" y="407" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-13" value="....." style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="689" y="407" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-14" value="日志查询" style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="257" y="407" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-15" value="可视化报表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550.5" y="407" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-16" value="实时检测" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="603" width="210" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-17" value="逻辑验证" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="603" width="210" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-18" value="告警分析" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="593.5" y="603" width="210" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-19" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="745" width="727" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="_N3_Lz3I-ojNIWXyE69J-20" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
