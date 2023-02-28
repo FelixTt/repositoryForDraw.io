@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T03:18:06.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Jji7JrJg-lkRbuYTYaAq" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T03:19:57.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DUmwQpsD3C3gt1x2428p" version="20.8.22" type="github">
   <diagram name="第 1 页" id="Vom3UvnZWgOcX-0_hm88">
-    <mxGraphModel dx="3981" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3531" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,7 +109,7 @@
             <mxPoint x="-1970" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xJm4VEoiwyY7ETo7iD6--23" value="告警配置" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xJm4VEoiwyY7ETo7iD6--23" value="权限管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2120" y="830" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xJm4VEoiwyY7ETo7iD6--24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xJm4VEoiwyY7ETo7iD6--1" target="xJm4VEoiwyY7ETo7iD6--23">
