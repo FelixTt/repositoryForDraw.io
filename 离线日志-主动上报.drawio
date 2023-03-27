@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T08:06:44.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LKAj4xMH3PnjiSxTzskw" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T08:07:02.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8hC94brWttLWfd6waE1x" version="21.1.1" type="github">
   <diagram name="第 1 页" id="IT4s2EiO6ka8GxfyGY2X">
     <mxGraphModel dx="1500" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="2stltuO-EHjp4fbqWveh-47" value="结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="860" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q-PgKzAsWuu9IqyVDojN-1" value="提取离线日志" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q-PgKzAsWuu9IqyVDojN-1" value="是否提取离线日志" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q-PgKzAsWuu9IqyVDojN-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q-PgKzAsWuu9IqyVDojN-1">
