@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T08:58:01.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.1.1" etag="r3vNND6Rb5uXmuBee-nP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T09:09:35.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9EynHzP2_mONECPgjyH8" version="21.1.1" type="github">
   <diagram name="第 1 页" id="VvxwSH3g7fMkVb_CeDnr">
-    <mxGraphModel>
+    <mxGraphModel dx="1158" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-3" value="config()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#330000;entryX=0.508;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Dzgq_BIPDOcHYJBDXWpu-3" source="Dzgq_BIPDOcHYJBDXWpu-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="406" y="150" as="sourcePoint" />
+            <mxPoint x="685.5" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-12" value="beforeConfig()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-4">
+          <mxGeometry x="-0.0219" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-5" value="开始" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-6" value="init()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-9" value="start()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-10" value="report()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.514;exitY=1.035;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.509;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-3" target="Dzgq_BIPDOcHYJBDXWpu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="250" as="sourcePoint" />
+            <mxPoint x="407" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-17" value="beforeInit()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-15">
+          <mxGeometry x="-0.2299" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.486;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-6" target="Dzgq_BIPDOcHYJBDXWpu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-21" value="beforeStart()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-20">
+          <mxGeometry x="-0.1028" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.497;entryY=-0.084;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.503;exitY=1.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-9" target="Dzgq_BIPDOcHYJBDXWpu-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-23" value="beforeReport()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-22">
+          <mxGeometry x="-0.1001" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-25" value="build()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-26" value="send()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="610" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.497;entryY=-0.084;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.503;exitY=1.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="Dzgq_BIPDOcHYJBDXWpu-25" target="Dzgq_BIPDOcHYJBDXWpu-26" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="740" as="sourcePoint" />
+            <mxPoint x="430" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-28" value="beforeSend()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-27">
+          <mxGeometry x="-0.1001" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.474;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.48;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-10" target="Dzgq_BIPDOcHYJBDXWpu-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="720" as="sourcePoint" />
+            <mxPoint x="430" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-30" value="beforeBuild()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-29">
+          <mxGeometry x="-0.4793" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-31" value="destory()" style="" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.492;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-26" target="Dzgq_BIPDOcHYJBDXWpu-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="850" as="sourcePoint" />
+            <mxPoint x="380" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-33" value="beforeDestory()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dzgq_BIPDOcHYJBDXWpu-32">
+          <mxGeometry x="-0.1426" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-34" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-35" value="结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dzgq_BIPDOcHYJBDXWpu-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.509;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dzgq_BIPDOcHYJBDXWpu-31" target="Dzgq_BIPDOcHYJBDXWpu-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="940" as="sourcePoint" />
+            <mxPoint x="400" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
