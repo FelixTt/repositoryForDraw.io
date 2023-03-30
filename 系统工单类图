@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T08:07:28.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="v4gAuU1IA2Ty14GOPJdj" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T08:07:47.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4jXbq05bHHweMPv9n60x" version="21.1.1" type="github">
   <diagram name="第 1 页" id="-BzzotN1_dsNARCvRQ75">
     <mxGraphModel dx="984" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="6-bSgGQlFCDx94M_eWyR-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
           <mxGeometry y="210" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="6-bSgGQlFCDx94M_eWyR-6" value="+ getOrderInto(data): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
+        <mxCell id="6-bSgGQlFCDx94M_eWyR-6" value="+ getOrderInto(data): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
           <mxGeometry y="218" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6-bSgGQlFCDx94M_eWyR-76" value="+ transferOrder(data): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
@@ -45,7 +45,7 @@
         <mxCell id="6-bSgGQlFCDx94M_eWyR-81" value="+ delayOrder(data): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
           <mxGeometry y="278" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6-bSgGQlFCDx94M_eWyR-80" value="+ urgeOrder(data): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
+        <mxCell id="6-bSgGQlFCDx94M_eWyR-80" value="+ urgeOrder(data): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
           <mxGeometry y="298" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6-bSgGQlFCDx94M_eWyR-78" value="+ goForDetailOrder(data): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6-bSgGQlFCDx94M_eWyR-1" vertex="1">
