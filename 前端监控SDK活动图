@@ -1,9 +1,143 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T03:13:43.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="Cb894OOI29Tp64HhREl0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T06:25:11.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9zr3jz9Aozco6L005m9v" version="21.1.2" type="github">
   <diagram name="第 1 页" id="nHJQ7s_YC1YnbMrWKrz8">
-    <mxGraphModel>
+    <mxGraphModel dx="323" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ArWiFi7qI93FkdIEI5no-1" value="实例" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="128" width="280" height="782" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-2" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#330000;" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="125.5" y="42" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#330000;endFill=1;rounded=0" edge="1" parent="ArWiFi7qI93FkdIEI5no-1" source="ArWiFi7qI93FkdIEI5no-2" target="ArWiFi7qI93FkdIEI5no-4">
+          <mxGeometry x="125.5" y="42" as="geometry">
+            <mxPoint x="140.5" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-4" value="创建实例，传入参数" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="85.5" y="94" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-15" value="开始" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="153.5" y="42" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-36" value="init()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="85.5" y="194" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-30" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="120.5" y="712" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-31" value="" style="endArrow=open;strokeColor=#000000;endFill=1;rounded=0;" edge="1" parent="ArWiFi7qI93FkdIEI5no-1" target="ArWiFi7qI93FkdIEI5no-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135.5" y="676" as="sourcePoint" />
+            <mxPoint x="631.54" y="441.5499999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-32" value="结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="150.5" y="712" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-45" value="监听数据" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="85.5" y="282" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-48" value="分发错误日志" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="85.5" y="392" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-63" value="destory()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-1">
+          <mxGeometry x="85.5" y="624" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.49;exitY=1.065;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ArWiFi7qI93FkdIEI5no-1" source="ArWiFi7qI93FkdIEI5no-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="161.5" y="364" as="sourcePoint" />
+            <mxPoint x="139.5" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-17" value="core" style="swimlane;whiteSpace=wrap;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="446" y="128" width="295" height="782" as="geometry">
+            <mxRectangle x="445" y="128" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-38" value="config() 配置参数" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="85" y="62" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-40" value="start() 执行插件" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="85" y="162" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-46" value="report()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="74" y="282" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-47" value="build()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="85" y="392" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-61" value="send()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="85" y="472" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-62" value="destory()" style="" vertex="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry x="85" y="552" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.442;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.446;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ArWiFi7qI93FkdIEI5no-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.62" y="114.05000000000001" as="sourcePoint" />
+            <mxPoint x="140.06000000000017" y="161.39999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.482;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ArWiFi7qI93FkdIEI5no-17" source="ArWiFi7qI93FkdIEI5no-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-56" y="552" as="sourcePoint" />
+            <mxPoint x="138" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.472;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.472;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ArWiFi7qI93FkdIEI5no-17" source="ArWiFi7qI93FkdIEI5no-61" target="ArWiFi7qI93FkdIEI5no-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149" y="455" as="sourcePoint" />
+            <mxPoint x="150" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.019;exitY=0.512;exitDx=0;exitDy=0;entryX=0.002;entryY=0.535;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ArWiFi7qI93FkdIEI5no-36" target="ArWiFi7qI93FkdIEI5no-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="348" />
+              <mxPoint x="490" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.535;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.046;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ArWiFi7qI93FkdIEI5no-48" target="ArWiFi7qI93FkdIEI5no-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="560" as="sourcePoint" />
+            <mxPoint x="510" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.493;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ArWiFi7qI93FkdIEI5no-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="680" as="sourcePoint" />
+            <mxPoint x="300" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.534;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.459;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ArWiFi7qI93FkdIEI5no-40" target="ArWiFi7qI93FkdIEI5no-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585.84" y="340" as="sourcePoint" />
+            <mxPoint x="585.84" y="387" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="390" />
+              <mxPoint x="300" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArWiFi7qI93FkdIEI5no-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.457;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.539;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ArWiFi7qI93FkdIEI5no-46" target="ArWiFi7qI93FkdIEI5no-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="492" as="sourcePoint" />
+            <mxPoint x="306" y="532" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="490" />
+              <mxPoint x="300" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
