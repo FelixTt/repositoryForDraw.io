@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T08:21:24.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QnuAFSdozftzjquVmPff" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T15:12:25.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ElBim0masWjSn3_Zf8Pv" version="21.2.3" type="github">
   <diagram name="第 1 页" id="2O2S4EIF-sugbOCVTf-C">
     <mxGraphModel dx="223" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="QIvPziabflNKjxDxl4Px-145" value="初始化配置文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1122.5" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QIvPziabflNKjxDxl4Px-146" value="flog core 是否加载完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QIvPziabflNKjxDxl4Px-146" value="flog core是否&lt;br&gt;加载完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="295" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QIvPziabflNKjxDxl4Px-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QIvPziabflNKjxDxl4Px-148" edge="1">
@@ -73,7 +73,7 @@
         <mxCell id="QIvPziabflNKjxDxl4Px-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QIvPziabflNKjxDxl4Px-155" target="QIvPziabflNKjxDxl4Px-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QIvPziabflNKjxDxl4Px-155" value="flog core 是否处于暂停状态" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QIvPziabflNKjxDxl4Px-155" value="flog core是否&lt;br&gt;处于暂停状态" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1127.75" y="610.02" width="119.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QIvPziabflNKjxDxl4Px-156" value="日志写入 flog 中间数组" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -99,7 +99,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QIvPziabflNKjxDxl4Px-163" value="是否超出条数限制" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QIvPziabflNKjxDxl4Px-163" value="是否超出条数&lt;br&gt;限制" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1131.88" y="935.02" width="110.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QIvPziabflNKjxDxl4Px-164" value="检查删除" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
