@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T08:07:02.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8hC94brWttLWfd6waE1x" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T15:33:28.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="A5_qYdloifxFAeVlW4o_" version="21.2.3" type="github">
   <diagram name="第 1 页" id="IT4s2EiO6ka8GxfyGY2X">
-    <mxGraphModel dx="1500" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="2stltuO-EHjp4fbqWveh-2" value="info() 数据上报" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="175" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2stltuO-EHjp4fbqWveh-3" value="是否是白名单用户" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="260" width="80" height="80" as="geometry" />
+        <mxCell id="2stltuO-EHjp4fbqWveh-3" value="是否是白&lt;br&gt;名单用户" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="260" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2stltuO-EHjp4fbqWveh-7" value="清除 IndexDB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="599.5" width="100" height="50" as="geometry" />
@@ -71,7 +71,7 @@
             <mxPoint x="550" y="485" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-PgKzAsWuu9IqyVDojN-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2stltuO-EHjp4fbqWveh-33">
+        <mxCell id="Q-PgKzAsWuu9IqyVDojN-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2stltuO-EHjp4fbqWveh-33" vertex="1" connectable="0">
           <mxGeometry x="-0.8013" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="16" as="offset" />
           </mxGeometry>
@@ -121,10 +121,10 @@
         <mxCell id="2stltuO-EHjp4fbqWveh-47" value="结束" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="860" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q-PgKzAsWuu9IqyVDojN-1" value="是否提取离线日志" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q-PgKzAsWuu9IqyVDojN-1" value="是否提取&lt;br&gt;离线日志" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Q-PgKzAsWuu9IqyVDojN-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q-PgKzAsWuu9IqyVDojN-1">
+        <mxCell id="Q-PgKzAsWuu9IqyVDojN-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Q-PgKzAsWuu9IqyVDojN-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="630" as="sourcePoint" />
             <mxPoint x="330" y="840" as="targetPoint" />
@@ -135,7 +135,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q-PgKzAsWuu9IqyVDojN-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-PgKzAsWuu9IqyVDojN-7">
+        <mxCell id="Q-PgKzAsWuu9IqyVDojN-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Q-PgKzAsWuu9IqyVDojN-7" vertex="1" connectable="0">
           <mxGeometry x="-0.8948" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
