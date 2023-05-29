@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T06:53:40.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aEaBj1Jigt9ro74YOieU" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T06:54:17.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oQpGMGf6sOlNV5HPE7ib" version="21.3.3" type="github">
   <diagram name="第 1 页" id="2O2S4EIF-sugbOCVTf-C">
-    <mxGraphModel dx="813" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="962" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,14 @@
             <mxPoint x="1040.5" y="684.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QIvPziabflNKjxDxl4Px-142" value="flog core触发startTheWorld事件" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;labelBorderColor=none;" parent="1" source="QIvPziabflNKjxDxl4Px-156" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="QIvPziabflNKjxDxl4Px-142" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;labelBorderColor=none;" parent="1" source="QIvPziabflNKjxDxl4Px-156" edge="1">
+          <mxGeometry x="0.0004" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="961.5" y="705.02" as="sourcePoint" />
             <mxPoint x="1187.5" y="815.02" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1377.5" y="815.02" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QIvPziabflNKjxDxl4Px-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QIvPziabflNKjxDxl4Px-143" target="QIvPziabflNKjxDxl4Px-144" edge="1">
@@ -158,6 +159,9 @@
         </mxCell>
         <mxCell id="azNNJ_uAIWZ7H78wWepx-12" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1164" y="1031" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="azNNJ_uAIWZ7H78wWepx-47" value="flog core触发startTheWorld事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="740" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
