@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T15:02:25.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7K9xBJTqrbXwLKy9-Bfr" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-09T15:12:26.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2FQe678xCwmwNSz4hKae" version="24.2.2" type="github">
   <diagram name="第 1 页" id="-ZGSn26ycv_NhK65gIa6">
-    <mxGraphModel dx="1914" dy="1415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3211" dy="2286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,14 +347,369 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XIzKHyMmlTQs2KDNC5_r-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;行政许可听证不是行政许可的必经程序，行政许可听证既是依申请，也是依职权的，申请人不必承担费用。&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 33px; caret-color: rgb(51, 51, 51); white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;20日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XIzKHyMmlTQs2KDNC5_r-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;行政许可听证不是行政许可的必经程序，行政许可听证既是依申请，也是依职权的，申请人不必承担费用。&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 33px; caret-color: rgb(51, 51, 51); white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;20日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-125" y="743" width="640" height="258" as="geometry" />
         </mxCell>
-        <mxCell id="XIzKHyMmlTQs2KDNC5_r-4" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; background-color: initial;&quot;&gt;行政处罚听证，是依申请&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;15日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 31px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XIzKHyMmlTQs2KDNC5_r-4" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; background-color: initial;&quot;&gt;行政处罚听证，是依申请&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;15日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 31px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="621" y="825" width="640" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="XIzKHyMmlTQs2KDNC5_r-5" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;《行政处罚法》 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;2年内&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;未被发现的，涉及生命5年&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;《税收征收管理法》违反税收法律、行政法规 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;5年内&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XIzKHyMmlTQs2KDNC5_r-5" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;《行政处罚法》 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;2年内&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;未被发现的，涉及生命5年&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;《税收征收管理法》违反税收法律、行政法规 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;5年内&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="529" y="-113" width="738" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-2" target="dyKtOBS3chVktlcmuruA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-2" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;申请许可&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-5" target="dyKtOBS3chVktlcmuruA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;20+10 税务负责人&lt;br&gt;45+15 多部门本级人民政府&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-3">
+          <mxGeometry x="-0.1625" y="-2" relative="1" as="geometry">
+            <mxPoint x="-87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-5" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;行政单位&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-8" target="dyKtOBS3chVktlcmuruA-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;10日内&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-6">
+          <mxGeometry x="-0.2121" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;做出是否批准决定&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-9" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;5日&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-5" target="dyKtOBS3chVktlcmuruA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-10" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;行政单位简易处罚&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="833" y="73" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-13" target="dyKtOBS3chVktlcmuruA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-13" target="dyKtOBS3chVktlcmuruA-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-13" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;纳税人&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="833" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-14" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;行政部门&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="833" y="423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-15" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;90+90+上分副局长&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-10" target="dyKtOBS3chVktlcmuruA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793" y="383" as="sourcePoint" />
+            <mxPoint x="843" y="333" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-14" target="dyKtOBS3chVktlcmuruA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793" y="373" as="sourcePoint" />
+            <mxPoint x="943" y="493" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="843" y="533" />
+              <mxPoint x="893" y="553" />
+              <mxPoint x="953" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-17" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;15日内组织听证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="853" y="563" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-18" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;7日前&lt;br&gt;通知&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="933" y="331" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;5日内申请听证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="779" y="331" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-14" target="dyKtOBS3chVktlcmuruA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793" y="333" as="sourcePoint" />
+            <mxPoint x="843" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-22" target="dyKtOBS3chVktlcmuruA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-22" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;纳税人&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;行政部门&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-23" target="dyKtOBS3chVktlcmuruA-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="210" as="sourcePoint" />
+            <mxPoint x="391" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="291" y="370" />
+              <mxPoint x="341" y="390" />
+              <mxPoint x="401" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-25" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;20日内组织&lt;br&gt;行政许可听证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="274" y="400" width="139" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-26" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;7日前&lt;br&gt;通知&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="168" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;5日内申请听证&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227" y="168" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-23" target="dyKtOBS3chVktlcmuruA-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="241" y="170" as="sourcePoint" />
+            <mxPoint x="291" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-30" target="dyKtOBS3chVktlcmuruA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-30" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1568" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-31" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;复议机关&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1528" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;60日内&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1598" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-33" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;复议&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1448" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1528" y="380" as="sourcePoint" />
+            <mxPoint x="1648" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1538" y="430" />
+              <mxPoint x="1588" y="450" />
+              <mxPoint x="1648" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-35" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;5日是否受理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1539" y="400" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-36" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;被申请人（税务局）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1528" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dyKtOBS3chVktlcmuruA-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1588" y="460" as="sourcePoint" />
+            <mxPoint x="1968" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-38" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;7日内发送&lt;br&gt;给被申请人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1593" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-39" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;10日内&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-36" target="dyKtOBS3chVktlcmuruA-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1868" y="390" as="sourcePoint" />
+            <mxPoint x="1918" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1478" y="570" />
+              <mxPoint x="1478" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;60日内&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-31" target="dyKtOBS3chVktlcmuruA-30">
+          <mxGeometry x="-0.0026" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1868" y="370" as="sourcePoint" />
+            <mxPoint x="1918" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1478" y="310" />
+              <mxPoint x="1478" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;直接诉讼6个月&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-30" target="dyKtOBS3chVktlcmuruA-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1868" y="370" as="sourcePoint" />
+            <mxPoint x="2028" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-42" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;收到复议申请书15日内&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-30" target="dyKtOBS3chVktlcmuruA-45">
+          <mxGeometry x="-0.0023" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1868" y="370" as="sourcePoint" />
+            <mxPoint x="1848" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-45" target="dyKtOBS3chVktlcmuruA-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-44" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;6个月内&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-43">
+          <mxGeometry x="-0.0368" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-45" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;法院&lt;/font&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;size=0;" vertex="1" parent="1">
+          <mxGeometry x="2127" y="170" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-46" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;诉讼&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1988" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-47" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-45" target="dyKtOBS3chVktlcmuruA-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2107" y="340" as="sourcePoint" />
+            <mxPoint x="2157" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2147" y="130" />
+              <mxPoint x="2172" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-48" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;7日内&lt;br&gt;是否立案&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2127" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dyKtOBS3chVktlcmuruA-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2142" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-50" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;被告&lt;br&gt;（税务局）&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2112" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-51" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;15日内提交证据，提出答辩状&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2212" y="278" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-52" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;5日内诉状副本&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2058" y="278" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2072" y="280" as="sourcePoint" />
+            <mxPoint x="2202" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2118" y="150" as="sourcePoint" />
+            <mxPoint x="1598" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-55" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;5日内将答辩状发送给原发&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-54">
+          <mxGeometry x="0.0927" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-56" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;一审&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2427" y="178" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-58" target="dyKtOBS3chVktlcmuruA-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-58" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;二审&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2427" y="345" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-56" target="dyKtOBS3chVktlcmuruA-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2287" y="430" as="sourcePoint" />
+            <mxPoint x="2337" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;判决书送达15日&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2347" y="265" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-56" target="dyKtOBS3chVktlcmuruA-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2287" y="400" as="sourcePoint" />
+            <mxPoint x="2337" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-62" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;裁定书送达10日&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2527" y="265" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-64" target="dyKtOBS3chVktlcmuruA-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-64" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;终审&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2427" y="490" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-65" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;3个月内终审&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2477" y="418" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-66" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;赔偿&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2427" y="620" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-67" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;2个月内&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2477" y="557" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-68" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;向申请人颁发、送达行政许可证件&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-69" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;到银行缴款&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-70" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;15日内&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="998" y="243" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;30日内&lt;br&gt;依法处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1809" y="278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-73" target="dyKtOBS3chVktlcmuruA-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;7日内&lt;br&gt;逐级转送&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1809" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-74" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;60日内依法处理&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1809" y="497" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-31" target="dyKtOBS3chVktlcmuruA-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1858" y="540" as="sourcePoint" />
+            <mxPoint x="1908" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1698" y="340" />
+              <mxPoint x="1698" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-76" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;有权&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-75">
+          <mxGeometry x="0.3616" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyKtOBS3chVktlcmuruA-31" target="dyKtOBS3chVktlcmuruA-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1858" y="540" as="sourcePoint" />
+            <mxPoint x="1908" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1698" y="340" />
+              <mxPoint x="1698" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无权&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyKtOBS3chVktlcmuruA-77">
+          <mxGeometry x="0.583" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-79" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;行政许可听证不是行政许可的必经程序，行政许可听证既是依申请，也是依职权的，申请人不必承担费用。&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 33px; caret-color: rgb(51, 51, 51); white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;20日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="743" width="640" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-80" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(51, 51, 51); white-space-collapse: preserve; background-color: initial;&quot;&gt;行政处罚听证，是依申请&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;5日内申请&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;15日内组织听证&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-softbreak&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;7日前通知&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 31px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="825" width="640" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-81" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;《行政处罚法》 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;2年&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;，涉及生命健康安全、金融安全5年&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain&quot;&gt;《税收征收管理法》 &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-pair-s&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;5年内&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="-113" width="826" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="dyKtOBS3chVktlcmuruA-82" value="&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 33px;&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;md-plain md-expand&quot;&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0.8em 0px; padding-left: 30px; position: relative; white-space-collapse: collapse; text-size-adjust: auto;&quot; data-mark=&quot;*&quot; class=&quot;ul-list&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; position: relative;&quot; class=&quot;md-list-item md-focus-container&quot;&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; margin: 0px 0px 0.5rem; white-space-collapse: preserve; position: relative;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;税收保全及时缴纳税款的，税务机关应当自收到税款或者银行转回的完税凭证之日起&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-pair-s&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;&lt;b&gt;1日内&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;解除税收保全。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0.8em 0px; padding-left: 30px; position: relative; white-space-collapse: collapse; text-size-adjust: auto;&quot; data-mark=&quot;*&quot; class=&quot;ul-list&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; position: relative;&quot; class=&quot;md-list-item md-focus-container&quot;&gt;&lt;p style=&quot;box-sizing: border-box; line-height: inherit; margin: 0px 0px 0.5rem; white-space-collapse: preserve; position: relative;&quot; class=&quot;md-end-block md-p md-focus&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;情况紧急，需要当场实施行政强制措施的，行政执法人员应当在&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-pair-s&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain&quot;&gt;24小时内&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box;&quot; class=&quot;md-plain md-expand&quot;&gt;向行政机关负责人报告，并补办批准手续。行政机关负责人认为不应当采取行政强制措施的，应当立即解除。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="704" width="1246" height="372" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
